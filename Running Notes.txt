@@ -1,0 +1,285 @@
+Java:Core Java
+
+Core Java:
+--------
+To develop different types of Applications.
+To Test the app by using Automation Tools[Selenium].
+
+Basic Concepts:
+Download and Install 
+Basic Java Programs:NotePad and CMD 
+IDE:EclipseIDE,IntiliJIDE
+Variables 
+DataTypes 
+KeyWords 
+Identifiers
+Constants
+Literals
+Errors 
+Comments
+Type Casting 
+Operators
+Conditional:if switch 
+Looping:for while do-while nested
+Jumping:break continue return
+Arrays 
+Strings 
+
+OOPS Concepts:
+Methods 
+Constructors 
+Inheritance
+Polimorphism:MOL MOR 
+Data Abstraction
+Interface
+Encapsulation
+Garbage Collection
+Exception Handling
+
+Collection Concepts:
+List and Set 
+
+Java Programs:
+
+Download and Install Java: .exe 
+----------------------
+Oracle:Mar:Even:26  Sep:Odd:25 
+Java Path:
+
+How Write, Compile and Excute Java Program:
+-------------WhatsUP->PlayStore
+SourceCode:.java[Program]->Developer
+ByteCode:.class[Ready to Use]->Install
+
+Editors:
+Basic Editors:NotePad,++ Edit++ etc 
+CMD:
+
+D:\Java Programs\Previous Programs
+D:\Java Programs
+C:\Users\HP>
+
+Step1:Write any Java Program:NotePad
+Step2:Save your Java Program:FileName.java 
+Step3:Compilation[Error Checking] .class 
+Step4:Run/Execute:OutPut
+
+Advanced Editors:IDE:EclipseIDE,IntiliJIDE etc 
+
+HelloWorld:
+
+Class and Object:
+Static:Class 
+Non-Static:Object 
+
+Syntax: class ClassName
+Rules:
+
+Assignment1:
+-----------
+Print any 10 Statements in OutPut
+
+WAJP to perform addition on given Two numbers. 
+
+Write 
+
+void main()
+{
+}
+
+int main()
+{
+return 0;
+}
+
+Computer:Input->Process->OutPut
+		   5,10 -> + ->15
+datatype variablename=value;
+	int a=5;
+	
+println & print
+
+Assignment-2:
+------------
+WAJP to perform addition on given Two numbers. 
+WAJP to perform substraction on given Two numbers. 
+WAJP to perform multification on given Two numbers. 
+WAJP to perform division on given Two numbers. 
+
+c=a+b; c=a-b; c=a*b; a=a/b;
+
+WAJP to perform addition on given Three numbers. 
+WAJP to perform substraction on given Three numbers. 
+WAJP to perform multification on given Three numbers. 
+WAJP to perform division on given Three numbers. 
+
+Advanced Editiors:
+--------------
+IDE:EclipseIDE:JDK[25] Selenium[Update,4.40]
+------------
+Download and Install EclipseIDE:
+
+JDK25V:Mar Sept 
+4V:3,6,9,12 
+2025-03
+2025-06
+2025-09
+2025-12
+
+2026-03
+
+Project:Main Folder:QTCoreJava230
+Package:Sub Folder:BasicPrograms
+Class:File:Addition2Num,Substraction2Num, Arrays:
+MainMethod
+Body
+
+Compilation+Excution:
+
+Variable Declaration and Variable Initialization
+datatype variablename;
+int v1;
+int v2;
+int sub=v1+v2; //Error
+
+Static Way:Variable declaration and Initialization inside java program/Class
+Perminent Values 
+Only these values modify or update by Developer.
+
+datatype variablename=value;
+int v1=20;
+int v2=30;
+
+Dynamic Way:
+-----------
+Variable declaration inside java program/Class and Initialization at runtime/excution time.
+
+Scanner Class:
+-------------Pre-Define
+Package:java.util.Scanner;
+Scanner:Pre-Define Class[Author-JG] 
+nextInt():Scanner Class-Method
+To initialize integer values at runtime/excution.
+
+nextInt();
+
+Static:ClassName.MethodName();
+		Scanner.nextInt();  xx
+		
+Non-Static:Object Reference
+Syntax:
+ClassName ObjName=new ClassName(Parameters);
+Scanner scan =new Scanner( System.in);
+
+Rules:Releated
+
+286 6s Performence + 
+186 3s 
+
+
+
+DataTypes and Variables in Java:
+----------------------
+Whitch type of value we are stored into variable.
+Input Values: + - * / % 
+23 3.5 
+I.Primitive DataTypes:
+---------------------
+1.Numeric DataTypes:
+----------------
+1.Plain Numbers:1kg: 2kg 5kg:1kg 10kg
+Rice:10kg 
+Sugar:2kg 
+Elachi:100g: 
+645		9765	322	-987	-986
+A.byte:-128 to 127 
+nextByte();
+1byte
+---------------- 
+B.short:-32768 to 32767
+nextShort();
+2bytes
+-------------
+C.int:
+Syntax:datatype variablename=value; 
+Ex:int value1=20;  //Static Way Input 
+	int value2=30;
+	int age=25;
+Syntax:
+datatype variablename=ScannerObj.ScannerMethod();
+int value1=scan.nextInt(); //Dynamic Way Input 
+int age=scan.nextInt();
+		
+D.long:
+nextLong();
+
+2.Point Values:
+4534.556	-8764.56756
+
+A.float 
+float value1=2.5f;
+float value1 = scan.nextFloat();
+
+B.double
+nextDouble();
+
+2.Non-Numeric DataTypes:
+-------------------
+Characters:Single Char
+char 
+'A'  'M' 'P' '@'
+next.CharAt(0);
+
+String:Collection of Characters.
+String 
+next(); Rama Rao 
+nextLine(); Rama Rao 
+
+"Krishna"  "Krish123@gmail.com"  
+
+Boolean:true or false
+20>30: false 
+boolean
+nextBoolean();
+
+Variables in Java:
+-----------------
+datatype variablename=value;
+datatype variablename=scan.method();
+	variablename=vale;
+byte v1=10; //Memory Rules:
+
+Camera:64gb 
+Videos:
+
+Index:0 to n-1 
+Address:1001 1002 1003 1004 
+Name:v1 value1
+
+Variable Declaration and Initialization:
+--------------
+int v1;
+int value2; //Just Declared[Dynamic]
+
+int v2=20;  //Static Values:Fixed 
+int value1=150// Declared and Initialized 
+
+Normal Variables: Store only Single Values.
+
+byte short int long float double char boolean String
+
+Ex1:WAJP Enter Student Details[Cover All Primitive DataTypes] and Print Same in Console use Static Input Method.
+
+Ex2:WAJP Enter Student Details[Cover All Primitive DataTypes] and Print Same in Console use Dynamic(Scanner) Input Method.
+
+AI TOOL:YES GitHub Copilet
+
+Assignments:
+---------
+Ex1:WAJP Enter Employee Details[Cover All Primitive DataTypes] and Print Same in Console use Static Input Method.
+
+Ex2:WAJP Enter Employee Details[Cover All Primitive DataTypes] and Print Same in Console use Dynamic(Scanner) Input Method.
+
+Ex3:WAJP Enter Customer Details[Cover All Primitive DataTypes] and Print Same in Console use Static Input Method.
+
+Ex4:WAJP Enter Customer Details[Cover All Primitive DataTypes] and Print Same in Console use Dynamic(Scanner) Input Method.
