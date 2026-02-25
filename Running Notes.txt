@@ -283,3 +283,119 @@ Ex2:WAJP Enter Employee Details[Cover All Primitive DataTypes] and Print Same in
 Ex3:WAJP Enter Customer Details[Cover All Primitive DataTypes] and Print Same in Console use Static Input Method.
 
 Ex4:WAJP Enter Customer Details[Cover All Primitive DataTypes] and Print Same in Console use Dynamic(Scanner) Input Method.
+
+25-02-2026
+Java Tokens:
+----------
+1.KeyWords:Reserved/Library/Pre-Define
+-------- 
+int a=10;
+class Addition
+
+2.Identifiers:
+------------ User-Define
+To identify any specfic Variable,ClassName,Object, PackageName,MethodName etc
+
+int a=10;
+class Addition
+Scanner scan=new Scanner()
+
+3.Literals: Primitive
+---------- Values
+int a=10; Integer Literal
+float b=2.5f; Float Literal
+String name="Krishna"; String Literal
+boolean result=true; Boolean Literal
+
+byte(KeyWord) age(Identifier) = 25;  //Byte Literal
+short rollNo = 12345; //Short Literal
+int phoneNo = 98765432; //Integer Literal
+long aadharNo = 123456789012L; //Long Literal
+float height = 5.8f; //Float Literal
+double weight = 75.5; //Double Literal
+char grade = 'A'; //Character Literal
+boolean isPassed = true; //Boolean Literal
+
+4.Constants:
+-----------
+final int passmarks=35;
+
+5.DataTypes and Variables:
+-----------------------
+
+All Literals are Constants:False/No 
+All Constants are Literals:True/Yes 
+
+All Identifiers are Variables:False/NO 
+All Variables are Identifiers:True/Yes 
+
+Errors in Java:
+-------------
+Pre-Defined Syntax based programming language 
+
+1.CompileTime/Syntax Errors:
+D:\Java Programs>javac Add2.java
+Add2.java:11: error: ';' expected
+System.out.print("Program Executed Successfully")
+
+2.RunTime/Exceptions Errors:[try/catch]
+After Successfull Compilation sometimes we get errors at excutiontime. 
+
+D:\Java Programs>java Addition2Num
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+        at Addition2Num.main(Add2.java:8)
+
+3.Logical Errors[Functional]: 
+LoginPage:Valid UserName and Valid Password
+Exception:Should Login[Products Page]
+
+Defects/Bugs:
+5x3=15, 25 
+
+Red:Error Yellow:Warning Green:No Error,Warning
+
+Comments:
+--------
+->Stop the Compilation and excution of one statement or multiple statements.
+->To add the user-frendly messages to understand program or statement.
+
+1.Single-Line: // 
+2.Multi-Line: /*   */ 
+3.Documentation: /**  */ 
+
+Type Conversion or Type Casting in Java:
+--------------------------------------
+To convert values from one datatype to another datatype
+
+a=5,b=2
+c=a/b; 2.5 float to int 2 
+
+a=6,b=2;
+c=a/b; 3 int to float 3.0 
+
+1.Implicit/Automatic/Widening Type Conversion:
+--------------------
+LowLevel datatype to HighLevel datatype
+byte-short-char-int-long-float-double
+
+2->2.0
+
+2.Explicit/Manual/Narrowing Type Conversion
+-------------------------
+HighLevel datatype to LowLevel datatype
+double-float-long-int-char-short-byte
+2.5->2 
+
+//Small to Big
+int a=10;
+float b=a;
+System.out.println("Value of a: " + b);
+		
+//Big to Small
+float c=10.5f;
+int d=c;
+System.out.println("Value of c: " + d);
+//Type mismatch: cannot convert from float to int
+		
+Operators in Java:
+-----------------

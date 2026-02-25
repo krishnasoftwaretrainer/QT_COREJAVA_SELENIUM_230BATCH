@@ -7,16 +7,16 @@ public class DataTypes_StaticWay {
     //Student Details Program 
 	//byte short int long float double char boolean String
 		
-		byte age = 25;
-		short rollNo = 12345;
-		int phoneNo = 98765432;
-		long aadharNo = 123456789012L;
-		float height = 5.8f;
-		double weight = 75.5;
-		char grade = 'A';
-		boolean isPassed = true;
+		byte age = 25;  //Byte Literal
+		short rollNo = 12345; //Short Literal
+		int phoneNo = 98765432; //Integer Literal
+		long aadharNo = 123456789012L; //Long Literal
+		float height = 5.8f; //Float Literal
+		double weight = 75.5; //Double Literal
+		char grade = 'A'; //Character Literal
+		boolean isPassed = true; //Boolean Literal
 		
-		String name = "John Doe";
+		String name = "John Doe"; //String Literal
 		
 		System.out.println("Student Details:");
 		System.out.println("Name: " + name);
