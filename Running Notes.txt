@@ -373,6 +373,16 @@ c=a/b; 2.5 float to int 2
 a=6,b=2;
 c=a/b; 3 int to float 3.0 
 
+Type Conversion or Type Casting in Java:
+--------------------------------------
+To convert values from one datatype to another datatype
+
+a=5,b=2
+c=a/b; 2.5 float to int 2 
+
+a=6,b=2;
+c=a/b; 3 int to float 3.0 
+
 1.Implicit/Automatic/Widening Type Conversion:
 --------------------
 LowLevel datatype to HighLevel datatype
@@ -396,6 +406,65 @@ float c=10.5f;
 int d=c;
 System.out.println("Value of c: " + d);
 //Type mismatch: cannot convert from float to int
-		
+
+	
+
 Operators in Java:
 -----------------
+Symbol: + < > == && || ++ --
+Operators[+] are using to perform operations[Add] on Operends[2,3].
+2+3 
+
+Types of Operators:
+---------------
+1.Arthametic Operators:+ - * / %
+2.Relational Operators:< > <= >= == !=
+3.Logical Operators:&& || ! 
+4.Assignment Operators:= += -= *= /= %=
+5.Unary Operators:+ - ++ --   -2  i=5 i++ i--
+6.Ternary Operators:? :
+7.Bitwise Operators:& | ^ Binary: 0 1
+8.Shift Operators:<< >> 
+
+1.Arthametic Operators:+ - * / %
+----------------
+5/2=2 	 Coffiecent 
+5%2=1	 Remainder 
+
+Input:Integer or Float
+OutPut:Integer or Float
+Operator Precedence[Priority]:
+----------
+5+3-2*8=48,-8 
+
+High Priority:* / % 
+Low Priority:+ -
+
+2.Relational Operators:< > <= >= == !=
+-------------
+Comparison Operators:Small Bigger Equal NotEqual 
+
+Input:Integer or Float
+OutPut:Boolean(true/false)  5>3 true  3>5 false
+
+OR Operator:
+int a=10,b=20;
+< or = ; a<b or a==b; 10<20 or 10==20; true or false: true 
+> or = ; a>b or a==b; 10>20 or 10==20; false or false: false
+
+3.Logical Operators: && || ! 
+-----------
+Truth Table:
+----------
+Input1	Input2	AND(&&)	OR(||)	NOT(!)
+---------------------------------------
+True	True	True	True	False
+
+True	False	False	True
+
+False	True	False	True
+
+False	False	False	False	True
+
+Input:Boolean(true/false)
+OutPut:Boolean(true/false) 
