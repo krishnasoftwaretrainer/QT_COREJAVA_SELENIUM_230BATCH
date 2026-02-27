@@ -468,3 +468,64 @@ False	False	False	False	True
 
 Input:Boolean(true/false)
 OutPut:Boolean(true/false) 
+=================
+27-02-2026
+
+
+4.Assignment Operators:= += -= *= /= %=
+--------------
+=
+int a=20;
+int b=a+10; b=20+10;b=30;
+
+a+=10;
+a=a+10;a=20+10; a=30; 
+
+/ %
+
+5%2=1
+2%5=2 
+200%100=0
+200/100=2
+100%200=100
+100/200=0
+
+Input:Integer or Float
+OutPut:Integer or Float 
+
+5.Unary Operators:+ - ++ --   -2  i=5 i++ i--
+--------------
+Positive:+100  25
+Negative:-100 -25
+
+Increment:++:+1 26
+---------
+Pre-Increment:++a; a=10;
+First:+1 and update into a variable:a=11 Print:11
+Post-Increment:b++; b=10;
+Print:10, after print +1 and update:a=11
+
+Decrement:--:-1 24
+-----------
+Pre-Decrement:--c; c=10;
+First -1 and update  same and print same:print 9
+Post-Decrement:d--;d=10;
+PRint:10, after decrease -1 and update:d=9
+
+Input:Integer or Float
+OutPut:Integer or Float 
+
+6.Ternary Operators: ? :
+-----------------
+Input:Integer
+OutPut:Boolean(true/false)
+int obtainedmarks=95; 25  
+obtainedmarks>=35
+95>=35 true 
+25>=35 false
+
+7.Bitwise Operators:& | ^ Binary: 0 1
+8.Shift Operators:<< >> 
+
+Control Flow Statements in Java:
+---------------------------
