@@ -527,5 +527,101 @@ obtainedmarks>=35
 7.Bitwise Operators:& | ^ Binary: 0 1
 8.Shift Operators:<< >> 
 
+28-0-2026
+---------------
+Compile and Execute:20LOC 
+Sequentional Flow:L1 L2 L3 L4....L20
+
 Control Flow Statements in Java:
 ---------------------------
+
+1.Conditional/Branching/Selection Statements:
+Condition:true/false
+A.if Condition:
+a.simple-if():
+Syntax:
+-------
+if(Condition) t 
+{
+Body; TBS; Pass 
+}
+false:null value 
+
+b.if-else():
+Syntax:
+---------
+if(Condition) t 
+{
+Body; TBS; Pass 
+}
+else  //f 
+{
+Body; FBS; Fail 
+}
+c.else-if() or ladder-if():
+-------------------------
+Pass or Fail 
+O A B C D Fail 
+Syntax:
+------
+if(Condition-1)
+{
+Body;TBS;
+}
+else if(Condition-2)
+{
+Body; TBS;
+}
+else if(Condition-3)
+{
+Body; TBS;
+}
+else 
+{
+Body; FBS;
+}
+
+if (obtainedmarks >= 80)
+Start:80 above 100 500 1k 10k 1lack
+End:100  A Invalid Marks 110 
+if (obtainedmarks >= 80 && obtainedmarks<=100)
+110 (110>=80 && 110<=100)
+	(True && False)=False 
+if (obtainedmarks >= 80 || obtainedmarks<=100) 
+110 (110>=80 || 110<=100)		
+	 (True && False)=True  A Grade 
+	 
+d.nested-if():
+-------------
+Syntax:
+--------
+if(Condition-1)//Outer  T T F MobileNumber/UserName
+{
+if(Condition-2) //Inner T F Password
+{
+Body; Open My Amazon Account
+}
+else //Inner Condition
+{
+Bod;FBS; Incorrect Password
+}
+else //Outer Condition
+{
+Body;FBS; Incorrect UserName
+}
+
+B.switch Condition:
+
+
+
+
+2.Looping/Iterative Statements:
+
+3.Jumping Statements:
+
+Arrays
+Strings 
+OOPS
+
+
+
