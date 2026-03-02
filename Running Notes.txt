@@ -622,6 +622,89 @@ B.switch Condition:
 Arrays
 Strings 
 OOPS
+================================
+02-03-2026
+B.switch Condition:[else-if]
+-----------------
+Syntax:
+-- 2
+switch(Condition)
+{
+case 1:
+{
+Body;
+break;
+}
+case 2:
+{
+Body;
+break;
+}
+case 3:
+{
+Body;
+break;
+}
+deafult: 
+{
+Body; FBS;
+}
+
+2.Looping/Iterative Statements:
+------------------
+Iteration/s:Round/s
+
+A.for():Counted Loop:If you know the loop is executed how many times, before
+------
+Starting and Ending and Increment/Decrement
+1 to 10 ++ or 	10 to 1 --
+Syntax:
+-------
+for(InitialValue,Condition;Increment/Decrement)
+{
+Body;
+}
+
+Excute:block or Set of Statements, multiple times
+
+//10 9 8 7 6 5 4 3 2 1
+for(int 10;i<=10;i--) 
+10<=10:10<10 or 10==10:F or T:T
+i=11;11<=10:False Exit
+i=9;9<=10:True: 
+--------
+i=1;1<=10 
+i=0;0<=10T -1 -2 -3 
+10 9 8 
+ATM:1P 2P 3P:while 100M 500M 10M
+10am to 11am:for  
+B.while():Infinet[Un-Counted]
+--------
+If you dont know the loop is executed how many times, before
+Syntax:
+----
+while(true)
+{
+Body;
+}
+or
+InitialValue;
+while(Condition)
+{
+Body;
+Increment/Decrement;
+}
+
+
+
+
+
+
+
+C.do-while()
+
+D.nested-loops:
+Pattern Programs:
 
 
 
