@@ -12,6 +12,7 @@ public class StringTypes {
 		System.out.println("Enter a Character: ");
 		char gender = sc.next().charAt(0);
 		System.out.println("You entered: " + gender);
+	sc.close();
 	}
 
 }

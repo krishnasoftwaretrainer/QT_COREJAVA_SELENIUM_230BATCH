@@ -9,6 +9,7 @@ public class WhileLoop {
 			System.out.println("Hello World");
 		} */
 		//Print 1 to 10 numbers
+		
 		int i=1; //Initial Value
 		while(i<=10) //Condition
 		{

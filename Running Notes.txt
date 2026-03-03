@@ -706,5 +706,212 @@ C.do-while()
 D.nested-loops:
 Pattern Programs:
 
+=================================
+03-03-2026
+Control Flow Statements in Java:
+---------------------------
+1.Conditional/Branching/Selection Statements:
+Condition:true/false
+A.if Condition:
+a.simple-if():
+Syntax:
+-------
+if(Condition) t 
+{
+Body; TBS; Pass 
+}
+false:null value 
+
+b.if-else():
+Syntax:
+---------
+if(Condition) t 
+{
+Body; TBS; Pass 
+}
+else  //f 
+{
+Body; FBS; Fail 
+}
+c.else-if() or ladder-if():
+-------------------------
+Pass or Fail 
+O A B C D Fail 
+Syntax:
+------
+if(Condition-1) F
+{
+Body;TBS;
+}
+else if(Condition-2) F/T 
+{
+Body; TBS;
+}
+else if(Condition-3) F
+{
+Body; TBS;
+}
+else 
+{
+Body; FBS;
+}
+
+if (obtainedmarks >= 80)
+Start:80 above 100 500 1k 10k 1lack
+End:100  A Invalid Marks 110 
+if (obtainedmarks >= 80 && obtainedmarks<=100)
+110 (110>=80 && 110<=100)
+	(True && False)=False 
+if (obtainedmarks >= 80 || obtainedmarks<=100) 
+110 (110>=80 || 110<=100)		
+	 (True && False)=True  A Grade 
+	 
+d.nested-if():
+-------------
+Syntax:
+--------
+if(Condition-1)//Outer  T T F MobileNumber/UserName
+{
+if(Condition-2) //Inner T F Password
+{
+Body; Open My Amazon Account
+}
+else //Inner Condition
+{
+Bod;FBS; Incorrect Password
+}
+else //Outer Condition
+{
+Body;FBS; Incorrect UserName
+}
+
+B.switch Condition:[else-if]
+-----------------
+Syntax:
+-- 2
+switch(Condition)
+{
+case 1:
+{
+Body;
+break;
+}
+case 2:
+{
+Body;
+break;
+}
+case 3:
+{
+Body;
+break;
+}
+deafult: 
+{
+Body; FBS;
+}
+
+2.Looping/Iterative Statements:
+------------------
+Iteration/s:Round/s
+
+Entry Control Loops:for() and while():true 
+1 to 10 i<=10;i=11;11<=10;false 
+First Check the Condition, if condition true executes the body;
+First:Condition
+then; Body excution
+
+Exit Control Loops:do-while()
+First Time:Directly execute the body, without checking condition
+1 to 10 i<=10;i=11;11<=10;false 
+First:Body execution
+then; Condition checking
+
+A.for():Counted Loop:If you know the loop is executed how many times, before
+------
+Starting and Ending and Increment/Decrement
+1 to 10 ++ or 	10 to 1 --
+Syntax:
+-------
+for(InitialValue,Condition;Increment/Decrement)
+{
+Body;
+}
+
+Excute:block or Set of Statements, multiple times
+
+//10 9 8 7 6 5 4 3 2 1
+for(int 10;i<=10;i--) 
+10<=10:10<10 or 10==10:F or T:T
+i=11;11<=10:False Exit
+i=9;9<=10:True: 
+--------
+i=1;1<=10 
+i=0;0<=10T -1 -2 -3 
+10 9 8 
+ATM:1P 2P 3P:while 100M 500M 10M
+10am to 11am:for  
+
+B.while():Infinet[Un-Counted]
+--------
+If you dont know the loop is executed how many times, before
+Syntax:
+----
+while(true)
+{
+Body;
+}
+or
+InitialValue;
+while(Condition)
+{
+Body;
+Increment/Decrement;
+}
+
+C.do-while():
+-----------
+Syntax:
+------
+InitialValue;
+do
+{
+Body;
+Increment/Decrement;
+}while(Condition);
+
+
+D.nested-loops:
+--------------
+if you write one loop inside of another loop, 
+
+Nested-for():
+---------
+Syntax:
+------
+for(InitialValue;Condition;Increment/Decrement) //Outer Loop T F  Rows 
+{
+for(InitialValue;Condition;Increment/Decrement) //Inner Loop T x Columns
+{
+Body;
+}
+}
+Table Formets:
+SR MC: 1	2	3	4	5	6	7	8	9	10
+MR SC: for while do-while
+MR MC:Table Formets:Patterns:nested-for()
+1	2	3	4	5
+1	2	3	4	5
+1	2	3	4	5
+1	2	3	4	5
+1	2	3	4	5 = 5x5=25
+
+3.Jumping Statements:
+break; continue; return;
+
+break;stop-> switch() and loops
+continue;stop-> loops 
+//break cannot be used outside of a loop or a switch
+//continue cannot be used outside of a loop
 
 

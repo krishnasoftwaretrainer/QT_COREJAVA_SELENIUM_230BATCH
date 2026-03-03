@@ -31,7 +31,7 @@ public class Comments {
 		
 		//Big to Small
 		float c=10.5f;
-		int d=c;
+		int d=(int)c;
 		System.out.println("Value of c: " + d);
 		//Type mismatch: cannot convert from float to int
 		//

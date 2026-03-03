@@ -21,7 +21,8 @@ public class Addition2Num_StaticInput
 		//The local variable value2 may not have been initialized
 		System.out.print("Addition: " + sum);
 		
-		
+		//break;
+		//continue;
 		
 		/*
 		int value1=20;  //Plain Number:Numeric

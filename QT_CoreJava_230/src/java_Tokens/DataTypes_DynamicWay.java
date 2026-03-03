@@ -47,7 +47,7 @@ public class DataTypes_DynamicWay {
 		System.out.println("Weight: " + weight);
 		System.out.println("Grade: " + grade);
 		System.out.println("Passed: " + isPassed);
-		
+		sc.close();
 		
 	}
 
