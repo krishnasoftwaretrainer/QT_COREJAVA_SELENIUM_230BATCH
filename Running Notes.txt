@@ -914,4 +914,55 @@ continue;stop-> loops
 //break cannot be used outside of a loop or a switch
 //continue cannot be used outside of a loop
 
+=================
+4t March
+2.Non-Primitive DataTypes:
+----------------
+Arrays in Java:
+------------
+Collection of elements/values of similar/same datatypes.
+
+int htno1=101;
+int htno2=102;
+int htno3=103;
+int htno4=104;
+int htno5=105;
+
+Syntax:
+-------
+datatype ArrayVariableName[]={Value1,Value2,...};
+int htno[]={101,102,103,104,105};
+float percentage[]={99.99f,98.3f,...};
+String snames[]={"Krishna","Ramesh",....};
+char gender[]={'M','F','F',...};
+
+Types of Arrays:
+-------------
+1.One or Single Dimension Array:
+---------------
+SR MC or MR SC 
+[101,102,103,104,105]->SR MC 
+[ 0,  1,  2,  3,  4]
+[101,
+102,
+103,
+104,
+105]->MR SC 
+
+2.Two or Double Dimension Array:
+------------------
+MR MC: R*C=Elements 2*2=4 3*3=9 3*4=12  2*5=10
+101 102 103 104
+    C0 		C1 
+R0 101[00]	102[01] 
+
+R1 103[10]	104[11]
+ 
+3.Multi Dimension Arrays:
+--------------------
+Arthametic Operations:
+sum=a+b; sum[][]=a[][]+b[][];
+sub=a-b; sub[][]=a[][]+b[][];
+mul=a*b; mul[][]=a[][]+b[][];
+div=a/b; div[][]=a[][]+b[][];
 
