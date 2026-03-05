@@ -965,4 +965,53 @@ sum=a+b; sum[][]=a[][]+b[][];
 sub=a-b; sub[][]=a[][]+b[][];
 mul=a*b; mul[][]=a[][]+b[][];
 div=a/b; div[][]=a[][]+b[][];
+-----------------------------
+05-03-2026
+Strings in Java:
+--------------
+"Collection of Characters"
+"Krishan"
+"Krish123@gmail.com"
+A to Z, a to z, 0 to 9 , SS[#@%#^$%^%^&]
+
+How to declare Strings:
+-------------
+1.String Literal:String Pool 
+Syntax:
+datatype StringVariableName="Value";
+String word1="java";
+
+2.new KeyWord:Heap Memory
+datatype StringVariableName=new StringValue("Value");
+String word1=new String("java");
+
+String Pool Concept:
+-----------------
+String word1="java";
+String word2="java";
+---------
+String word428="java";
+
+String Methods:
+--------------
+
+Basic Concepts:
+------------
+C C++ Java Python JS TS .net 
+
+OOPS Concepts:
+------------
+Methods 
+Constructors
+Inheritance
+Polymorphism
+Method OverLoading
+Method OverRiding
+Data Abstraction
+Interface
+Encapsulation
+Garbage Collection
+Exception Handling
+
+
 
