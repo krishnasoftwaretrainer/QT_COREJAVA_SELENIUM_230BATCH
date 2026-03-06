@@ -1012,6 +1012,97 @@ Interface
 Encapsulation
 Garbage Collection
 Exception Handling
+======================
+06-03-22
+------------
+
+OOPS Concepts:
+------------
+Methods 
+Constructors
+Inheritance
+Polymorphism
+Method OverLoading
+Method OverRiding
+Data Abstraction
+Interface
+Encapsulation
+Garbage Collection
+Exception Handling
+=================================
+OOPS: class and object
+1.Re-Usability::Write Once Run/Use Anywhere,
+Avoid Duplication
+2.Readabulity
+3.Security
+
+1.Methods in Java:
+--------------
+Block of Code:Specific Purpos
+Syntax:Declare Method
+
+class ClassName1
+{
+//Method-1[Inside Class and OutSide MainMethod()]
+AccessSpecifier ReturnType MethodName(Parameters_List)
+{
+Body; User-Defined Code/Script
+}
+//Method-2
+AccessSpecifier ReturnType MethodName(Parameters_List)
+{
+Body; User-Defined Code/Script
+}
+MainMethod()
+{
+Call the Methods;
+}
+}
+
+class ClassName2
+{
+MainMethod()
+{
+Call the Methods;
+}
+}
+Types of Methods:
+---------------
+1.Pre-Define:
+2.User-Define:
+
+A.Static Methods:static
+Call through the ClassName
+But Call through the ObjectName:
+Warning:The static method Multiplication() from the type Calculator1 should be accessed in a static way
+B.Non-Static Methods:
+Call through the ObjectName
+But Call through the ClassName:Error
+Error: Cannot make a static reference to the non-static method Subtraction() from the type Calculator1
+How we Call the Methods:
+----------------
+2Ways:
+1.Static:Static Method:ClassName
+ClassName.MethodName();
+
+2.Non-Static:Object
+Create Object:ClassName ObjName=new ClassName();
+ObjName.MethodName();
+
+1.Same Package and Same Class
+Package: methods and Class: Calculator1
+2.Same Package and Different[Other] Class 
+Package: methods and Class:Calculator2
+3.Different Package and Different Class 
+Package: basic_Programs and Class:Calculator3
+
+AccessSpecifiers:public, private, protected, default
+
+Types of User-Define Methods:4Types
+1.WithOut ReturnType and WithOut Parameters
+2.WithOut ReturnType and With Parameters
+3.With ReturnType and WithOut Parameters
+4.With ReturnType and With Parameters
 
 
 
