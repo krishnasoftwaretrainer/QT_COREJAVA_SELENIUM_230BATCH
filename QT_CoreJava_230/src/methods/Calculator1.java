@@ -10,7 +10,7 @@ public class Calculator1   //Class-1 + - * /
 		System.out.println("The Addiition is: " + sum);
 	}
 	
-	public void Subtraction()  //Non-Static Method-2
+	private void Subtraction()  //Non-Static Method-2
 	{
 		int a = 20;
 		int b = 10;
@@ -18,7 +18,7 @@ public class Calculator1   //Class-1 + - * /
 		System.out.println("The Subtraction is: " + sub);
 	}
 	
-	public static void Multiplication()  //Static Method-3
+	protected static void Multiplication()  //Static Method-3
 	{
 		int a = 20;
 		int b = 10;
@@ -26,7 +26,7 @@ public class Calculator1   //Class-1 + - * /
 		System.out.println("The Multiplication is: " + mul);
 	}
 	
-	public static void Division()  //Static Method-4
+	 static void Division()  //Static Method-4
 	{
 		int a = 20;
 		int b = 10;

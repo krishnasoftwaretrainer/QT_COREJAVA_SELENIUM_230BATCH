@@ -12,9 +12,10 @@ public class Calculator2 //Class-2: + - * / %
 	
 	public static void main(String[] args) 
 	{
+		//Same Package and Different Class
 		Calculator1 cal1 = new Calculator1();
 		cal1.Addition(); //Method Calling
-		cal1.Subtraction(); //Method Calling
+		cal1.Subtraction(); //private Method Calling
 		Calculator1.Multiplication(); //Method Calling
 		Calculator1.Division(); //Method Calling
 		Calculator2.ModulusDivision(); //Method Calling

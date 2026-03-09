@@ -1103,6 +1103,154 @@ Types of User-Define Methods:4Types
 2.WithOut ReturnType and With Parameters
 3.With ReturnType and WithOut Parameters
 4.With ReturnType and With Parameters
+=====================================
+09-03-2026
+1.Methods in Java:
+--------------
+Block of Code:Specific Purpos
+Syntax:Declare Method
 
+class ClassName1
+{
+//Method-1[Inside Class and OutSide MainMethod()]
+AccessSpecifier ReturnType MethodName(Parameters_List)
+{
+Body; User-Defined Code/Script
+}
+//Method-2
+AccessSpecifier ReturnType MethodName(Parameters_List)
+{
+Body; User-Defined Code/Script
+}
+MainMethod()
+{
+Call the Methods;
+}
+}
+
+class ClassName2
+{
+MainMethod()
+{
+Call the Methods;
+}
+}
+Types of Methods:
+---------------
+1.Pre-Define:
+2.User-Define:
+
+A.Static Methods:static
+Call through the ClassName
+But Call through the ObjectName:
+Warning:The static method Multiplication() from the type Calculator1 should be accessed in a static way
+B.Non-Static Methods:
+Call through the ObjectName
+But Call through the ClassName:Error
+Error: Cannot make a static reference to the non-static method Subtraction() from the type Calculator1
+How we Call the Methods:
+----------------
+2Ways:
+1.Static:Static Method:ClassName
+ClassName.MethodName();
+
+2.Non-Static:Object
+Create Object:ClassName ObjName=new ClassName();
+ObjName.MethodName();
+
+1.Same Package and Same Class
+Package: methods and Class: Calculator1
+2.Same Package and Different[Other] Class 
+Package: methods and Class:Calculator2
+3.Different Package and Different Class 
+Package: basic_Programs and Class:Calculator3
+
+AccessSpecifiers:public, private, protected, default
+-----------------
+Security or Ristrict 
+
+public:Project Level
+-------
+1.Same Package and Same Class
+Package: methods and Class: Calculator1
+2.Same Package and Different[Other] Class 
+Package: methods and Class:Calculator2
+3.Different Package and Different Class 
+Package: basic_Programs and Class:Calculator3
+
+private:Class Level
+------
+1.Same Package and Same Class
+Package: methods and Class: Calculator1
+
+protected: Package Level
+--------
+1.Same Package and Same Class
+Package: methods and Class: Calculator1
+2.Same Package and Different[Other] Class 
+Package: methods and Class:Calculator2
+
+default:
+-------
+Same as protected
+
+Types of User-Define Methods:4Types
+1.WithOut ReturnType and WithOut Parameters
+2.WithOut ReturnType and With Parameters
+3.With ReturnType and WithOut Parameters
+4.With ReturnType and With Parameters
+
+2.Constructors in Java:
+---------------------
+Method:ClassName and MethodName:different
+Method:ReturnType is Manditory:[void]
+Method:Must be Cal, without calling method is not excute.
+Methods:Two Types:static and  non-static
+
+Constructor:ClassName and MethodName:Same
+Constructor:No ReturnType[Even void]
+Constructors:To Initialize the valus.
+Constructors:No need to cal.Only just create object.
+Constructors:Only it is non-static.
+
+Types Constructors:
+----------------
+1.No Parameter Constructors.
+2.Parameterized Constructors.
+3.Default Constructors.
+
+3.Inheritance in Java:Re-Usability
+---------------------
+Parent Class:Code[Methods][Declared]
+Child Class:Code[Methods]
+
+Child class  inherites[Re-Use] the features from Parent Class.
+
+Is-A:
+Samsung Is-A Mobile[Parent]Comman Properties
+Samsung extends Mobile
+Oppo Is-A Mobile
+IPhone extends Mobile
+
+SBI extends RBI 
+HDFC extends RBI 
+ICICI extends RBI 
+
+Boy extends Parents 
+Girl extends Parents 
+
+Amazon extends ChromeBrowser
+FilpCart extends ChromeBrowser
+FaceBook extends ChromeBrowser
+
+Child extends Parent
+
+Types of Inheritance:
+-----------------
+1.Single-Level[One Parent and One Child]
+2.Multi-Level[Parent->Child/Parent->Child]
+3.Hierarchical[One Parent and MultiPile Childs]
+4.MultiPile[One Child and MultiPile Parents]
+5.Hybrid[Combinations]
 
 
