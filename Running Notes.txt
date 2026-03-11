@@ -1347,5 +1347,68 @@ RBI:Parent:Loans:5%
 SBI:Child1:6%
 HDFC:Child2:7%
 ICICI:Child3:8% 
+--------------------------------
+Security:
+-------
+Data Abstraction and Interface:
+-------------------------------
+Parent class only declares the methods, there is No implementation in Parent Class,
+Child class implements the parent class features.
 
+ATM Machine: Make a Phone Cal:
+FrontEnd:Customer:1k 1k 5 2 1:Parent Class:What  
+BackEnd:Working but not Showing:Child Class:How 
+
+Un-Implemented:Parent:abstract methods 
+No Body 
+Implementation:Child 
+
+Abstract Class:
+You can declare abstract methods along with normal
+methods.
+ 
+Abstract Methods:
+Must declare with abstract keyword.
+Abstract methods don't have body/No implementation
+Must add ; end of the method Signature.
+
+Normal Class:
+Only you cal declare normal method
+
+Norm Methods:
+Have Implementation[Have Body]{ Body; }
+
+Ex:Ameerpet to Secunderbad 
+Inheritance:
+Parent and Child:Metro Train:What and How 
+Method OverRiding:
+Parent and Child:Bike:What and How[OverRides] 
+Data Abstraction:Parent[What] and Child:Cab:How 
+
+Hiding the Implementation:Security
+Data Abstraction:0 to 100%
+0%:Only Implemented Methods
+100%:Only Un-Implemented Methods
+0 to 100:Few Implemented and Few Un-Implemented
+
+100%:One Class only accepts Un-Implemented methods.
+
+Data Abstraction achive in Two Ways
+abstract Class:0 to 100%[abstract]
+interface Class:100%
+
+Interface:
+---------
+1.Achive 100% Data Abstraction
+2.MultiPile Inheritance:
+One Child class inherites the features from multiple Parent Classes.
+
+Child inherites Parent1,Parent2,Parent3 
+Child implements Parent1,Parent2,Parent3 
+Here,
+Parent Class: Interface Class[abstract methods]
+Child Class: Normal Class 
+
+Encapsulation in Java:
+----------------------
 
