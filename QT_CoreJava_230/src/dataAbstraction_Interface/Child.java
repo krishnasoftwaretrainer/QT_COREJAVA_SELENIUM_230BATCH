@@ -14,7 +14,7 @@ interface Parent3
 }
 
 public class Child  implements Parent1,Parent2,Parent3
-{
+{//One Normal Child Class can implement multiple interface Parent Class
 	public void Father1() 
 	{
 		System.out.println("I am your Father1");

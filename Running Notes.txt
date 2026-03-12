@@ -1412,3 +1412,36 @@ Child Class: Normal Class
 Encapsulation in Java:
 ----------------------
 
+Encapsulation in Java:
+-------------------
+Hiding the Data.
+private:Same Package and Same Class
+private int balance; Within Class:Class Level
+
+getter and setter methods.
+public
+
+4 Pillers of OOPS:
+--------------
+Inheritance
+Polimorphism
+Data Abstraction
+Encapsulation
+
+Garbage Collection:Automatic Process 
+-----------------
+Allocate the memory 
+De-Allocate the memory
+
+C C++:Pointers:Software Developers or QA Engineers 
+Manuvally
+malloc calloc realloc free()
+
+Dead Objects:The value of the local variable add is not used
+
+Exception Handling in Java:
+-------------------------
+RunTime Errors:Exceptions 
+
+try and catch()
+

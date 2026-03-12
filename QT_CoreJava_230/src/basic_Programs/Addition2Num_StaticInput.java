@@ -7,8 +7,10 @@ public class Addition2Num_StaticInput
 
 	public static void main(String[] args) 
 	{
+		Addition2Num_StaticInput add=new Addition2Num_StaticInput();
 		Scanner scan =new Scanner( System.in);
-		
+		int m1=10; //Memory Allocation is done. 4bytes  
+		//m1 is dead variable because it is not used anywhere in the program.
 		int value1=16;  //static Values 
 		value1=20;  //value1 is updated with new value
 		
@@ -33,6 +35,7 @@ public class Addition2Num_StaticInput
 		System.out.print("Addition: ");
 		System.out.println(sum);
 		*/
+		scan.close();
 	}
 	
 }
