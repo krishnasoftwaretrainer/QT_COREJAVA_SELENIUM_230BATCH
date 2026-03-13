@@ -1444,4 +1444,38 @@ Exception Handling in Java:
 RunTime Errors:Exceptions 
 
 try and catch()
+==========================
+Exception Handling in Java:
+-------------------------
+Errors in Java:
+-----------
+CompileTime Errors:
+RunTime Errors:Exceptions 
+
+try and catch()
+1
+2
+3->Exception[Stop][Crash]
+4
+5
+6
+7
+8
+9
+10->9 2 
+
+Types of Exceptions in Java:
+-----------------------
+1.Checked Exceptions:Compile-Time:throws 
+
+2.Un-Checked Exception:RunTime:try and catch()
+ArthameticException
+ArrayIndexOutOfBoundException
+NullPointerException
+
+final:To declare Constant Variables.
+finally:In Exception Handling to excute default Statements.
+finalize:Garbage Collection
+
+final int passmarks=35; //Constants
 

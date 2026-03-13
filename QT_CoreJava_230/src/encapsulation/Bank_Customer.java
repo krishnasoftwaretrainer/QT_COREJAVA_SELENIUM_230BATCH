@@ -7,6 +7,7 @@ public class Bank_Customer
 	private String accname="Krishna";//N.Krishna
 	private double balance=3000;  //get:3k set:5k 
 	
+	int a=10;
 	
 	//Getter and Setter Methods
 	public int getAccnum()
