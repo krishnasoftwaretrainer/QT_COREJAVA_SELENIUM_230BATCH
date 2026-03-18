@@ -1,0 +1,50 @@
+Automation Testing:To test the app by using automation tools.
+Washing Cloths:Manual[Humans]+Automation[Machine]
+
+Regression Testing:Automation Tools 
+
+Run/Excute:Selenium WebDriver
+Web Application:
+Application:Browser:Chrome Edge FireFox
+Automation Script:Core Java Concepts:IDE:Eclipse
+
+
+
+Selenium IDE:FireFox:Record ad Play 
+Selenium RC:Remote Control
+Selenium WebDriver:
+Selenium Grid:Hub, Node/Child
+
+Selenium with Java:
+-----------------
+Automation Environment SetUp:
+--------------------------
+Browser's:Chrome Edge FireFox
+Java:JDK 26v 
+IDE:EclipseIDE[2026-03] or IntellijIDE
+Tool:Selenium WebDriver[4.41v]
+
+Java:JDK 26v [https://www.oracle.com/in/java/technologies/downloads/#jdk26-windows]
+
+IDE:EclipseIDE[2026-03] or IntellijIDE
+[https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2026-03/R/eclipse-inst-jre-win64.exe]
+
+Selenium WebDriver[4.41v]
+[https://www.selenium.dev/downloads/]
+
+
+
+Scenario:Test FaceBook LoginPage
+TC1:Valid Email and Valid Password
+TC2:Valid Email and Invalid Password
+TC3:
+Pre-Steps:Manual and Automation
+-------
+Step1:Open Chrome/Edge/FireFox Browser
+Step2:Maximize Browser
+Step3:Enter FaceBook URL
+TestCase:
+Step4:Enter Valid EmailID
+Step5:Enter Valid PassWord
+Step6:Click on Login Button
+Step7:Find Test Result[Pass/Fail]
