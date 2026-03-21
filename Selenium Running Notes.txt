@@ -48,3 +48,110 @@ Step4:Enter Valid EmailID
 Step5:Enter Valid PassWord
 Step6:Click on Login Button
 Step7:Find Test Result[Pass/Fail]
+============
+Smoke Testing:Build Verification
+-------------------------
+URL of the App:
+Excepted URL vs Actual URL:Pass/Fail 
+Title of the App:
+Excepted Title vs Actual Title:Pass/Fail 
+
+1.Head Browser:UI 
+2.HeadLess Browser:No UI 
+
+SELENIUM TOPICS:
+----------------
+1. INTRODUCTION OF AUTOMATION TESTING  
+2. BROWSER LAUNCHING:CHROME EDGE FIREFOX 
+3. TITLE AND URL VERIFICATION  
+4. WEB LOCATORS AND WEB ELEMENTS  
+5. FINDELEMENT AND FINDELEMENTS  
+6. WEB DRIVER/WEBELEMENT METHODS  
+7. getText()  
+9. CLEAR METHOD  
+10. RADIO BUTTON  
+11. CHECK BOX  
+12. DROP DOWN  
+14. JAVASCRIPT EXECUTOR  
+15. SCROLL UP AND SCROLL DOWN 
+16. NAVIGATION COMMANDS  
+17. SCREENSHOT 
+18. HEADLESS BROWSER 
+19. KEYBOARD ACTIONS  ACTIONS 
+20. MOUSEOVER ACTIONS: 
+21. isDisplayed(),isEnabled() and isSelected()
+28. WEB TABLE 
+21. DRAG AND DROP AND RIGHT CLICK  
+23. FRAME HANDLING  
+24. ALERTS  
+26. FILE UPLOADING USING SENDKEYS  
+22. WINDOW HANDLING 
+13. WORKING WITH WINDOWS AND TABS
+25. ASSERTIONS
+29. AUTOIT FRAMEWORK  
+30. TESTNG FRAMEWORK 
+25. WAITS  
+31. MAVEN PROJECT  
+32. DATA DRIVEN FRAMEWORK  
+33. APACHE POI[Excel]  
+34. HYBRID FRAMEWORK  
+35. BDD CUCUMBER FRAMEWORK  
+36. SELENIUM PROJECT
+
+WEB LOCATORS AND WEB ELEMENTS:
+-----------------------------
+Web Elements:
+-----------
+1.Text Box or Edit Box:Enter the Text[Single Line] 
+2.Text Area:Enter the Text[Multiple Lines]
+3.Buttons:Click
+4.Links: Click
+5.RadioButtons:Click
+6.Checkboxes:Click
+7.Dropdowns:Select
+
+Web Locaters:
+-----------
+1.ID 
+2.Name
+3.Class:Compound class names not permitted
+4.TagName
+5.LinkText
+6.PartialLinkText
+7.CSS Selector
+8.XPath
+
+Find that particular WebElement then perform Action or Operation.
+
+Test Scenario:Validate FaceBook LoginPage
+TC1:Valid Email and Valid Password
+TC2:Valid Email and InValid Password
+TC3:InValid Email and Valid Password
+
+TC2:Valid Email and InValid Password
+--------------
+1.Open Chrome Browser and Maximize
+2.Enter Valid URL[Smoke Testing]
+3.Enter Valid EmailID
+4.Enter InValid Password
+5.Click on LoginButton
+WebElements:TextBox and Button
+Web Locaters:
+
+Assignment-1:
+------------
+Test Scenario:Validate FaceBook LoginPage
+TC1:Valid Email and Valid Password
+TC2:Valid Email and InValid Password
+TC3:InValid Email and Valid Password
+TC4:InValid and Invalid
+
+Chrome,Edge,FireFox:Head and HeadLess
+
+XPath:
+-------
+1.Absolute:/: html 
+/html/body/section/div/div/div[2]/form/div[1]/div[1]/input
+
+2.Relative://
+Syntax: //tagName[@attribute="value"]
