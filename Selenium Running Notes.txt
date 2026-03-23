@@ -155,3 +155,29 @@ XPath:
 
 2.Relative://
 Syntax: //tagName[@attribute="value"]
+
+Scrolling_WebPage:
+-----------------
+1.Vertical:
+Top to Bottom:[Up to Down]
+Bottom to Top:
+
+2.Horizontal:
+Left to Right:
+Right to Left:
+
+Browser Navigations:
+-----------------
+navigate backward forward refresh
+
+ScreenShots:
+------------
+
+WebTables:
+---------
+Create Insert Update Select Delete
+
+23. FRAME HANDLING  
+24. ALERTS  
+22. WINDOW HANDLING 
+
