@@ -181,3 +181,61 @@ Create Insert Update Select Delete
 24. ALERTS  
 22. WINDOW HANDLING 
 
+Frames:
+------
+
+Alerts:
+------
+Accept:OK 
+Dismiss:Cancel
+Get Alert Text:getText
+Enter Text into Alert Box:SendKeys
+
+Window Handling:
+---------------
+Tab1: 2E9B3C2BD553DAE2957AB7058584814F
+Tab2: CEEA867079FA54BA23903B3CB5DCF178
+Tab3: D164155AE439B8D3C336DAAD0AC670FE
+-------------------
+Tab1: 422803CDD5D2340DED9BD64C351BDE9E
+Tab2: 5A6DD8B8331F1551E0270DB3DFF2DFDD
+Tab3: 94970E924223DC481FFA57DAC07969EF
+
+
+
+Actions Class:
+------------
+RightClick
+Copy and Paste
+
+1.KeyBoard Actions:
+----------------
+Ex:Capital Letters:selenium, SELENIUM, Selnium
+
+Press:SHIFT->KeyDown
+Action:Enter Text
+Release:SHIFT->KeyUp
+
+2.Mouse Actions:
+--------------
+Double-Click
+Right-Click
+Drag and Drop
+Click-and-Hold
+MoveByOffSet
+MoveToElement
+
+Waits and Synchrnization:
+---------------------
+1.Thread.sleep(2000); Static Wait[Fixed Wait]
+2.Implicit:NoSuchElementException
+3.ExplicitWait:10S
+4.FluitWait:Polling Time:2s 
+
+
+FrameWorks:
+----------
+TestNG FrameWork:
+--------------
+
+
