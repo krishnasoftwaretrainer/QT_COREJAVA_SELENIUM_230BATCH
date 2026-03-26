@@ -233,9 +233,29 @@ Waits and Synchrnization:
 4.FluitWait:Polling Time:2s 
 
 
+
 FrameWorks:
 ----------
 TestNG FrameWork:
---------------
+----------------
+TestNG:Concepts: JUnit+NUint=TestNG 
+-------
+1.TestNG Library inclusion (.jar / Maven dependency)
+2. No 'main()' method required[Annotations @Test]
+3. TestNG Test Execution(@Test)
+4. Test Results – Pass / Fail count 
+5. HTML Reports – `test-output/index.html`
+6. Test priority
+7. Invocation count=3
+	Enable / Disable tests
+8. Test Suite execution using `testng.xml`
+9. Failed test re-run – `testng-failed.xml`
+10. TestNG Annotations ('@Test', `@BeforeSuite`, `@AfterSuite`, `@BeforeTest`, `@AfterTest`, `@BeforeClass`, `@AfterClass`, `@BeforeMethod`, '@AfterMethod', `@BeforeGroups`, `@AfterGroups`)
+11. Data-driven testing (`.properties`, `.xlsx`, `@DataProvider`)
+12. Assertions (Hard, Soft) 10TC:P P F P P F P P
+13. Parameters from `testng.xml`
+14. Groups (Smoke, Sanity, Regression)
+15. Enable / Disable tests
+
 
 
