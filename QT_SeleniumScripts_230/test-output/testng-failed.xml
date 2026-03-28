@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.SwagLoginPage">
+      <class name="testNG.HardAsser_SoftAssert">
         <methods>
-          <include name="Swag_IVU_IVP"/>
-          <include name="BrowserClose"/>
-          <include name="BrowserLaunch"/>
+          <include name="HardSoft_Assert"/>
         </methods>
-      </class> <!-- testNG.SwagLoginPage -->
+      </class> <!-- testNG.HardAsser_SoftAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

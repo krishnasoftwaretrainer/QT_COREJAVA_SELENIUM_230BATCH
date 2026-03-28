@@ -258,4 +258,19 @@ TestNG:Concepts: JUnit+NUint=TestNG
 15. Enable / Disable tests
 
 
+Assertions:
+---------
+Assert Equal and NotEqual
+Assert True and False
+Assert Null and NotNull
+
+java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+
+1 to 100->25Fail 26 to 100
+25Fail
+
+DataDriven FrameWork:
+------------------
+Excel Sheets:
+
 
