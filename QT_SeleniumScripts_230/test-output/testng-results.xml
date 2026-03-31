@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-31T11:47:47 IST" name="Default suite" finished-at="2026-03-31T11:49:00 IST" duration-ms="73112">
+    <groups>
+    </groups>
+    <test started-at="2026-03-31T11:47:47 IST" name="Default test" finished-at="2026-03-31T11:49:00 IST" duration-ms="73112">
+      <class name="dataDriven_SwagLabs.SwagTestData_ExcelSheets">
+        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDriven_SwagLabs.SwagTestData_ExcelSheets@5ffead27]" started-at="2026-03-31T11:47:48 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-31T11:47:59 IST" duration-ms="10859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsLogin -->
+        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDriven_SwagLabs.SwagTestData_ExcelSheets@5ffead27]" started-at="2026-03-31T11:47:59 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-31T11:48:09 IST" duration-ms="9978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsLogin -->
+        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDriven_SwagLabs.SwagTestData_ExcelSheets@5ffead27]" started-at="2026-03-31T11:48:09 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-31T11:48:20 IST" duration-ms="10410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsLogin -->
+        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDriven_SwagLabs.SwagTestData_ExcelSheets@5ffead27]" started-at="2026-03-31T11:48:20 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-31T11:48:30 IST" duration-ms="10418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsLogin -->
+        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDriven_SwagLabs.SwagTestData_ExcelSheets@5ffead27]" started-at="2026-03-31T11:48:30 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-31T11:48:40 IST" duration-ms="9958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsLogin -->
+        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDriven_SwagLabs.SwagTestData_ExcelSheets@5ffead27]" started-at="2026-03-31T11:48:40 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-31T11:48:50 IST" duration-ms="10315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsLogin -->
+        <test-method signature="SwagLabsLogin(java.lang.String,java.lang.String)[pri:0, instance:dataDriven_SwagLabs.SwagTestData_ExcelSheets@5ffead27]" started-at="2026-03-31T11:48:50 IST" name="SwagLabsLogin" data-provider="SwagLabs_All_TestCases" finished-at="2026-03-31T11:49:00 IST" duration-ms="10258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabsLogin -->
+      </class> <!-- dataDriven_SwagLabs.SwagTestData_ExcelSheets -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

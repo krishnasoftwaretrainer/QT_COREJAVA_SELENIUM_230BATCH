@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagSuite">
+  <test thread-count="5" name="Valid_Invalid_Test">
+    <classes>
+      <class name="testNG.Swag_ValidValid_Login"/>
+      <class name="testNG.Swag_ValidInValid_Login"/>
+       <class name="testNG.Swag_InValidValid_Login"/>
+      <class name="testNG.Swag_InValidInValid_Login"/>
+    </classes>
+  </test> <!-- Valid_Invalid_Test -->
+</suite> <!-- SwagSuite -->

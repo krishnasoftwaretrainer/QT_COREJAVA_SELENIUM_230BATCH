@@ -269,8 +269,39 @@ java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] bu
 1 to 100->25Fail 26 to 100
 25Fail
 
+=======================
 DataDriven FrameWork:
 ------------------
-Excel Sheets:
+TestData+TestScript
+
+Properties File:
+---------------
+1Set
+
+URL:
+
+ApachePOI: https://poi.apache.org/download.html
+--------
+Excel Sheets:Rows and Columns
+
+Create Sheet
+
+Write Data
+
+Read Data
+
+.xls   <2010 HSSF
+.xlsx: >2010 XSSF
+
+WorkBook
+Sheet
+Row
+Column/Field/Cell
+
+FileInputstream:Get/Read 
+FileOutputStream:Write/Create 
+
+Hybrid FrameWork:
+-----------------
 
 
