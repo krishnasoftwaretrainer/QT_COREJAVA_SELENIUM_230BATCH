@@ -301,7 +301,75 @@ Column/Field/Cell
 FileInputstream:Get/Read 
 FileOutputStream:Write/Create 
 
+
+Logic+TestData=Selenium Script
+Developer or Automation Engineer
+Re-Use
+Regression Testing
+
+FrameWork:
+Hard Code:Logic+TestData[URL+Data]
+Soft Code:Logic:Class1 TestData
+Logic:
+Browser Open and Browser Close
+[BaseClass.java]
+OpenBrowser,Maximize,Enter URL and CloseBrowser]
+FindElement and Operations
+[SwagLogin.java]
+Locaters and Pre-Define Methods 
+Read the Properties File Data [PropertyUtilities.java]
+Read the Excel file the Data
+[ExcelUtilities.java] 
+-------------------
+TestData:Properties and Excel[.properties]
+Create Properties File[Store the Data]
+URL:
+Locaters:
+Create Excel File[Store the Data][.xlsx]
+Multiple Rows and Columns
+Valid Valid
+Valid InValid
+--------
+--------
+
 Hybrid FrameWork:
 -----------------
+1.BaseClass → Reusable setup
+[BaseClass.java]
+---------
+2.Properties file → External configuration
+Create Properties File[Store the URL]
+[PropertyUtilities.java]
+Utilities → Modular design
+-------------
+3.POM:Store the Locaters
+BY Class
+@findBy
 
+4.Create Excel File[Store the Data][.xlsx]
+[ExcelUtilities.java] 
+------------
+4.Excel DataProvider → Data-Driven
+[SwagLogin.java]
+--------------
+5.Test Runner 
+hybridsuit.xml 
 
+Parallel Testing:
+---------------
+@Parameters
+
+TestNG
+Data Driven 
+Hybrid
+POM 
+
+Project in Eclipse:
+-----
+1.Java Project:
+2.Maven Project: https://mvnrepository.com/
+
+Selenium Server:4.41v->4.42
+
+Download->Add->Project
+Dependecisis:
