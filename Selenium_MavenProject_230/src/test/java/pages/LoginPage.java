@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
-import pom.POM_Locaters;
+import pom.POM_Locaters_By;
 import utilities.ExcelUtilities;
 
 public class LoginPage extends BaseClass
@@ -21,7 +21,7 @@ public class LoginPage extends BaseClass
 	@Test(dataProvider = "SwagLabs_All_TestCases")
 	public void SwagLabsLogin(String UserName, String Password) throws InterruptedException {
 
-		POM_Locaters locaters = new POM_Locaters(driver);
+		POM_Locaters_By locaters = new POM_Locaters_By(driver);
 		locaters.loginToApp(UserName, Password);
 		Thread.sleep(2000);
 	}

@@ -373,3 +373,56 @@ Selenium Server:4.41v->4.42
 
 Download->Add->Project
 Dependecisis:
+
+Hybrid FrameWork:Java or Maven Project
+--------------
+TestNG:@Test 
+Data-Driven:@DataPrivder()
+Page Object Model[POM]:By and @findBy
+
+Base Class:Browser Configuration:Browser Open and Close,URL.
+Utilities:ExcelUtilities[TestData],Properties[URL]
+TestData:Resources
+POM:Locaters
+Actuval Script:Login Page, AddToCart Page, Cart Page.
+LapTop:
+
+End-To-End Testing:
+-----------------
+Project:
+---------
+App:SwagLabs: https://www.saucedemo.com/
+[Provides the information about products]
+[Customers can buy our products]
+Domain:E-Commerce
+
+1.Login Page[Valid and InValid]
+2.Sort the Products
+3.Add Products to Cart
+4.GoTo Cart
+5.CheckOut
+6.Fill the Form
+7.Click on Continue
+8.Click Finish
+9.Back Home
+10.LogOut Page
+
+2.DemoBlaze: https://www.demoblaze.com/index.html
+
+Test:Manual+Automation
+
+Parameters from `testng.xml`:Parallel Testing
+10Min:C E F : 30Mins
+Base Class
+Script
+.xml 
+
+
+
+Groups (Smoke, Sanity, Regression)
+
+
+
+BDD Cucumber FrameWork:
+--------------------
+
