@@ -1,0 +1,26 @@
+Project-1 for Software Testing:
+-----------------[Manual and Automation]
+End-To-End Testing[Project]:
+------------------
+Domain:E-Commerce
+App Name:SwagLabs [https://www.saucedemo.com]
+Testing:Smoke,Sainty and Regression
+FrameWorks:
+TestNG or JUnit Framework
+DataDriven Framework
+POM Framework
+Hybrid Framework
+BDD Cucumber Framework
+
+End-To-End: To test the all functionalities or pages od=f App positive and negative test data by using different frameworks.
+
+End-To-End:
+TS#1:Login Page/Functionlity[+/-]
+TS#2:Sort the Products.
+TS#3:Verify Product deatils.
+TS#4:Add to Cart.
+TS#5:Verify added products in Cart.
+TS#6:CheckOut Page[Fill your information]
+TS#7:Payment Page
+TS#8:Back to Home Page 
+TS#9:LogOut Page 

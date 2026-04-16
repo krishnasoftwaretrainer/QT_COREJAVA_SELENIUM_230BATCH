@@ -20,7 +20,7 @@ public class BaseClass
 		driver = new EdgeDriver();
 		//driver = new ChromeDriver();
 		driver.manage().window().maximize();
-
+		//driver.get("https://www.saucedemo.com/");
 		driver.get(prop.getProperty("baseUrl"));
 	}
 

@@ -421,8 +421,136 @@ Script
 
 Groups (Smoke, Sanity, Regression)
 
-
-
 BDD Cucumber FrameWork:
 --------------------
+BA:Gerkhin Language:Normal English
+Test Steps:Gerkhin:.features
+Automation Script: stepDefinations
+Given When Then AND But 
+RunnerFile:
 
+Steps for Cucumber FrameWork:
+----------------------------
+Step1:Create New Maven Project
+Step2:Update JDK Version from 1.8v to New Version
+Step3:Add Dependecisis[Selenium-java,Cucumber-java,
+Cucumber-JUnit,junit]
+Step4:Install Cucumber Plugin[Eclipse MarketPlace]
+Step5:In src/test/resources, Create Folder and Create/Write feature file 
+Step6:Run FeatureFile [RightClick and RunAs Cucumber Feature [Generates Methods]
+Step7:Create Package stepDefinations in src/test/java 
+Step8:Create Java Class in stepDefinations Package
+Step9:Copy generated methods in Java Class and implement using Selenium Concepts.
+Step10:Create New Package in src/test/java and Create New Class for RunnerFile and add runner script.
+Step11:Run/Execute the RunnerClass.
+Step12:Analysis the Reports .
+
+Hooks: Browser Setup and tearDown 
+
+@Before:		@After
+
+@BeforeStep		@AfterStep
+
+Before Scenario
+This is Step One
+  ✔ Given Step One # stepDefinations.BeforeAfterSteps.step_one()
+This is Step Two
+  ✔ When Steo Two  # stepDefinations.BeforeAfterSteps.steo_two()
+This is Step Three
+  ✔ And Step Three # stepDefinations.BeforeAfterSteps.step_three()
+This is Step Four
+  ✔ Then Step Four # stepDefinations.BeforeAfterSteps.step_four()
+After Scenario
+
+-----------
+Before Scenario
+This is Step One
+  ✔ Given Step One # stepDefinations.BeforeAfterSteps.step_one()
+After Scenario
+Before Scenario
+This is Step Two
+  ✔ When Steo Two  # stepDefinations.BeforeAfterSteps.steo_two()
+After Scenario
+Before Scenario
+This is Step Three
+  ✔ And Step Three # stepDefinations.BeforeAfterSteps.step_three()
+After Scenario
+Before Scenario
+This is Step Four
+  ✔ Then Step Four # stepDefinations.BeforeAfterSteps.step_four()
+After Scenario
+-----------------
+
+Swag Login
+---------
+Valid Valid 
+InValid InValid
+Valid InValid
+InValid Valid
+Valid Blank
+InValid Blank
+Blank Valid
+Blank InValid
+Blank Bank
+
+Excute ScenarioOutLine Feature
+RunnerFile:TestNG
+
+Hybrid FramWork with POM:
+BaseClass:Browser Configuration [@Before
+Method,@AfterMethod]
+ExcelUtilities:Read Testdat from ExcelFiles
+POM 
+DatProvider Class[Actuval Script]
+
+BDD Cucumber FrameWork with POM:
+-----------------------
+Hooks:Browser Configuration [@Before,@After]
+POM Class[Store Locaters]
+Login Page[Actuval Script]
+Runner Class 
+Feature File 
+
+Project-1 for Software Testing:
+-----------------[Manual and Automation]
+End-To-End Testing[Project]:
+------------------
+Domain:E-Commerce
+App Name:SwagLabs
+Testing:Smoke,Sainty and Regression
+FrameWorks:
+TestNG or JUnit Framework
+DataDriven Framework
+POM Framework
+Hybrid Framework
+BDD Cucumber Framework
+
+End-To-End: To test the all functionalities or pages od=f App positive and negative test data by using different frameworks.
+
+End-To-End:
+TS#1:Login Page/Functionlity[+/-]
+TS#2:Sort the Products.
+TS#3:Verify Product deatils.
+TS#4:Add to Cart.
+TS#5:Verify added products in Cart.
+TS#6:CheckOut Page[Fill your information]
+TS#7:Payment Page
+TS#8:Back to Home Page 
+TS#9:LogOut Page 
+
+Project-2:
+--------
+Domain:E-Commerce
+App:DemoBlaze
+Update Project details int Repo.
+
+Projects:
+--------
+1.https://www.saucedemo.com
+2.https://demoblaze.com/index.html
+
+WebApps for Practice:
+---------
+1.https://demoqa.com/
+2.https://demo.automationtesting.in/Index.html
+3.https://testautomationpractice.blogspot.com/

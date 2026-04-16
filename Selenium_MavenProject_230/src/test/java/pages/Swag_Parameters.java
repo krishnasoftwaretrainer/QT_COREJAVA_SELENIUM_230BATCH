@@ -92,4 +92,25 @@ public class Swag_Parameters extends BaseClass_Parlell
 		System.out.println("ThreadID: | " + Thread.currentThread().threadId());
 
 	}
+	
+	@Test(priority = 5)
+	@Parameters({ "blankusername", "blankpassword" })
+	public void BlankLogin(String blankusername, String blankpassword) {
+		WebElement username = driver.findElement(By.id("user-name"));
+		username.sendKeys(blankusername);
+		WebElement password = driver.findElement(By.id("password"));
+		password.sendKeys(blankpassword);
+		WebElement loginButton = driver.findElement(By.id("login-button"));
+		loginButton.click();
+
+		WebElement errorMessage = driver.findElement(By.xpath("//h3[@data-test='error']"));
+		String expectedErrorMessage = "Epic sadface: Username is required";
+		String actualErrorMessage = errorMessage.getText();
+
+		softAssert.assertEquals(actualErrorMessage, expectedErrorMessage); // Pass Fail
+		softAssert.assertAll(); // Report
+		System.out.println("ThreadID: | " + Thread.currentThread().threadId());
+		System.out.println("Excution Completed");
+	}
+
 }

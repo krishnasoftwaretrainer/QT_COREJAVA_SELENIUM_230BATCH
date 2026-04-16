@@ -17,9 +17,11 @@ public class POM_Locaters_By
 	By loginBtn=By.xpath("//input[@id=\"login-button\"]");
 	
 	public void enterUsername(String userName) 
-	{
+	{	
+						//int a=20;
 	 driver.findElement(username).sendKeys(userName);
 	 //driver.findElement(By.id("user-name")).sendKeys(userName);
+	 						
 	}
 	
 	public void enterPassword(String passWord) 
@@ -37,5 +39,6 @@ public class POM_Locaters_By
 		enterUsername(userName);
 		enterPassword(passWord);
 		clickLoginBtn();
+		
 	}
 }
