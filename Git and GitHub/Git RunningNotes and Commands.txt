@@ -1,0 +1,373 @@
+
+GIT and GITHUB
+--------------
+Repo
+GitCommands
+GithubGUI 
+
+
+PushLocal Machine files push to Repo 
+PullPull file from Repo to Local Machine
+
+Version Control System
+
+WhatsUP V1 V2 V3.... ATE 
+
+d
+
+
+
+
+Git and GitHub
+--------------
+Normal File 
+Git File 
+
+Push and Pull
+
+Local Machine to GitHub
+GITHUB to Local Machine
+
+Git BashGit Commands
+
+-LocalMachine[Normal Folder]
+-Convert into Git Folder
+-Add the files into Staging
+-Commit the Changes[Saved & Ready to move]
+-Configure the Git to GitHub
+-Push[StoreUpload]
+
+httpsgit-scm.cominstallwindows
+-----------------------------------
+HP@DESKTOP-DCUKDOL MINGW64 ~
+$ cd D230Git
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git
+$ ls -a
+.  ..
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git
+$ git init
+Initialized empty Git repository in D230Git.git
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ ls -a
+.  ..  .git
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (createcopy files and use git add to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        Sampl1.txt
+
+nothing added to commit but untracked files present (use git add to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        Sampl1.txt
+
+nothing added to commit but untracked files present (use git add to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        Sampl1.txt
+        Sample2.txt
+
+nothing added to commit but untracked files present (use git add to track)
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git add Sampl1.txt
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed
+  (use git rm --cached file... to unstage)
+        new file   Sampl1.txt
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        Sample2.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed
+  (use git rm --cached file... to unstage)
+        new file   Sampl1.txt
+
+Changes not staged for commit
+  (use git add file... to update what will be committed)
+  (use git restore file... to discard changes in working directory)
+        modified   Sampl1.txt
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        Sample2.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed
+  (use git rm --cached file... to unstage)
+        new file   Sampl1.txt
+        new file   Sample2.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed
+  (use git rm --cached file... to unstage)
+        new file   Sampl1.txt
+        new file   Sample2.txt
+
+Changes not staged for commit
+  (use git add file... to update what will be committed)
+  (use git restore file... to discard changes in working directory)
+        modified   Sampl1.txt
+        modified   Sample2.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git commit -m Two Flies
+[master (root-commit) f71a3e5] Two Flies
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Sampl1.txt
+ create mode 100644 Sample2.txt
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git commit -m Two Flies Changes
+On branch master
+Changes not staged for commit
+  (use git add file... to update what will be committed)
+  (use git restore file... to discard changes in working directory)
+        modified   Sampl1.txt
+        modified   Sample2.txt
+
+no changes added to commit (use git add andor git commit -a)
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+Changes to be committed
+  (use git restore --staged file... to unstage)
+        modified   Sampl1.txt
+        modified   Sample2.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git commit -m Two Flies Changes
+[master c9b414d] Two Flies Changes
+ 2 files changed, 4 insertions(+), 2 deletions(-)
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git config --global user.name QAKRISHNA
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git config --global user.email krishnasoftwaretrainer@gmail.com
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=CProgram FilesGitmingw64etcsslcertsca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.httpsdev.azure.com.usehttppath=true
+init.defaultbranch=master
+gui.recentrepo=CUsersHPTesting_Data
+gui.recentrepo=CUsersHPSeleniumFeb2025BAtch
+user.name=QAKRISHNA
+user.email=krishnasoftwaretrainer@gmail.com
+user.mail=tronixtechkrishna@gmail.com
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git remote add origin httpsgithub.comkrishnasoftwaretrainer230_NewGit.git
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git push -u origin master
+Enumerating objects 8, done.
+Counting objects 100% (88), done.
+Delta compression using up to 8 threads
+Compressing objects 100% (44), done.
+Writing objects 100% (88), 589 bytes  589.00 KiBs, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To httpsgithub.comkrishnasoftwaretrainer230_NewGit.git
+  [new branch]      master - master
+branch 'master' set up to track 'originmaster'.
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+Your branch is up to date with 'originmaster'.
+
+Changes to be committed
+  (use git restore --staged file... to unstage)
+        new file   Sample3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git status
+On branch master
+Your branch is up to date with 'originmaster'.
+
+Changes to be committed
+  (use git restore --staged file... to unstage)
+        new file   Sample3.txt
+
+Changes not staged for commit
+  (use git add file... to update what will be committed)
+  (use git restore file... to discard changes in working directory)
+        modified   Sample3.txt
+
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git commit -m New File Sample-3
+[master d8813b1] New File Sample-3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Sample3.txt
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git push -u origin master
+Enumerating objects 4, done.
+Counting objects 100% (44), done.
+Delta compression using up to 8 threads
+Compressing objects 100% (22), done.
+Writing objects 100% (33), 317 bytes  317.00 KiBs, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To httpsgithub.comkrishnasoftwaretrainer230_NewGit.git
+   c9b414d..d8813b1  master - master
+branch 'master' set up to track 'originmaster'.
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git add .
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git commit -m New File Sample-3 Change
+[master 40e4782] New File Sample-3 Change
+ 1 file changed, 1 insertion(+)
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ git push -u origin master
+Enumerating objects 5, done.
+Counting objects 100% (55), done.
+Delta compression using up to 8 threads
+Compressing objects 100% (33), done.
+Writing objects 100% (33), 339 bytes  339.00 KiBs, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote Resolving deltas 100% (11), completed with 1 local object.
+To httpsgithub.comkrishnasoftwaretrainer230_NewGit.git
+   d8813b1..40e4782  master - master
+branch 'master' set up to track 'originmaster'.
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$
+
+HP@DESKTOP-DCUKDOL MINGW64 d230Git (master)
+$ cd D230 Git Pull
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull
+$ git remote add origin httpsgithub.comkrishnasoftwaretrainer230_NewGit.git
+fatal not a git repository (or any of the parent directories) .git
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull
+$ cd D230 Git Pull
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull
+$ git init
+Initialized empty Git repository in D230 Git Pull.git
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull (master)
+$ git remote add origin httpsgithub.comkrishnasoftwaretrainer230_NewGit.git
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull (master)
+$ git pull origin master
+remote Enumerating objects 14, done.
+remote Counting objects 100% (1414), done.
+remote Compressing objects 100% (88), done.
+remote Total 14 (delta 2), reused 13 (delta 1), pack-reused 0 (from 0)
+Unpacking objects 100% (1414), 1.05 KiB  17.00 KiBs, done.
+From httpsgithub.comkrishnasoftwaretrainer230_NewGit
+  branch            master     - FETCH_HEAD
+  [new branch]      master     - originmaster
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull (master)
+$ git remote add origin httpsgithub.comkrishnasoftwaretrainer230_NewGit.git
+error remote origin already exists.
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull (master)
+$ git pull origin master
+remote Enumerating objects 4, done.
+remote Counting objects 100% (44), done.
+remote Compressing objects 100% (22), done.
+remote Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects 100% (33), 950 bytes  67.00 KiBs, done.
+From httpsgithub.comkrishnasoftwaretrainer230_NewGit
+  branch            master     - FETCH_HEAD
+   40e4782..85ff8dd  master     - originmaster
+Updating 40e4782..85ff8dd
+Fast-forward
+ PullFile  1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 PullFile
+
+HP@DESKTOP-DCUKDOL MINGW64 d230 Git Pull (master)
+$
