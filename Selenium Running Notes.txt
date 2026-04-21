@@ -554,3 +554,73 @@ WebApps for Practice:
 1.https://demoqa.com/
 2.https://demo.automationtesting.in/Index.html
 3.https://testautomationpractice.blogspot.com/
+
+
+GIT and GITHUB:
+--------------
+Repo:
+Git:Commands
+Github:GUI 
+
+
+Push:Local Machine files push to Repo 
+Pull:Pull file from Repo to Local Machine
+
+Version Control System:
+
+WhatsUP: V1 V2 V3.... ATE: 
+
+d
+
+
+
+
+Git and GitHub:
+--------------
+Normal File 
+Git File 
+
+Push and Pull
+
+Local Machine to GitHub
+GITHUB to Local Machine
+
+Git Bash:Git Commands
+
+->LocalMachine[Normal Folder]
+->Convert into Git Folder:
+->Add the files into Staging
+->Commit the Changes[Saved & Ready to move]
+->Configure the Git to GitHub
+->Push[Store/Upload]
+
+https://git-scm.com/install/windows
+
+Jenkins:[CI/CD]:
+--------------
+
+CI/CD:Automate selenium excution.
+----
+Continues Integration:
+Continues Delivery[Manual]/Deployment[Automatic]:
+
+Selenium Scripts:
+Push[Add]your Scripts into GitHub.
+Jenkins->Build Pipeline->Execution.
+
+Git and GitHub
+Jenkins
+
+Before Jenkins:
+---------------
+Developer[Code]->Build->Delivery
+Executes Selenium Scripts->Reports
+
+Now using Jenkins:
+----------------
+Developer[Code]->Push Git->Jenkins Trigger->Build->Run Selenium Scripts->Reports->Deploy[RealTime]
+
+Selenium FramWork[Scripts]:
+Repository:Git and GitHub
+Build Tool:Maven
+CI/CD Tool: Jenkins
